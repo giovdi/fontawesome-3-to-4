@@ -4,7 +4,7 @@
 FontAwesome 3 to 4 is brought to you by Giovdi by Pixelstyle.it.
 
 ## How to use it
-In main.py you can define the file or the folders you want to check.  
+In `main.py` you can define the file or the folders you want to check.  
 Use `pathCheck` to check every file into a folder or `fileCheck` to check a single file.
 
 For example:
@@ -19,7 +19,7 @@ FontAwesome3To4.fileCheck("/path/to/file.php", True)
 
 The first parameter is the folder or the file to convert, the second one, if True, creates a .bak file for each file analyzed.
 
-To quickly use this tool, feel free to change `main.py` with your path and folders.  
+To quickly use this tool, feel free to change `main.py` with your paths and folders.  
 You can also use `from fontawesome3to4 import FontAwesome3To4` to use this library in your projects.
 
 ## Eclipse integration
