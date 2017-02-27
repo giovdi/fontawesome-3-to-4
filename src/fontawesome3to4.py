@@ -1,5 +1,6 @@
 from os import walk
 from shutil import copyfile
+from __builtin__ import staticmethod
 
 class FontAwesome3To4:
     FA_ICONS = {
