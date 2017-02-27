@@ -14,8 +14,10 @@ FontAwesome3To4.pathCheck("C:/path/to/folder", True)
 FontAwesome3To4.fileCheck("C:/path/to/file.php", True)
 # For Unix users
 FontAwesome3To4.pathCheck("/path/to/folder", True)
-FontAwesome3To4.pathCheck("/path/to/file.php", True)
+FontAwesome3To4.fileCheck("/path/to/file.php", True)
 ```
+
+The first parameter is the folder or the file to convert, the second one, if True, creates a .bak file for each file analyzed.
 
 To quickly use this tool, feel free to change `main.py` with your path and folders.  
 You can also use `from fontawesome3to4 import FontAwesome3To4` to use this library in your projects.
