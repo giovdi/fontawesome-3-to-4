@@ -3,6 +3,8 @@
 
 FontAwesome 3 to 4 is brought to you by Giovdi by Pixelstyle.it.
 
+A FontAwesome 4 to 5 converter is also available at [https://github.com/giovdi/fontawesome-4-to-5](https://github.com/giovdi/fontawesome-4-to-5)
+
 ## How to use it
 In `main.py` you can define the file or the folders you want to check.  
 Use `pathCheck` to check every file into a folder or `fileCheck` to check a single file.
@@ -17,7 +19,7 @@ FontAwesome3To4.pathCheck("/path/to/folder", True)
 FontAwesome3To4.fileCheck("/path/to/file.php", True)
 ```
 
-The first parameter is the folder or the file to convert, the second one, if True, creates a .bak file for each file analyzed.
+The first parameter is a folder or a file to convert, the second one, if True, creates a .bak file for each file analyzed.
 
 To quickly use this tool, feel free to change `main.py` with your paths and files.  
 You can also use `from fontawesome3to4 import FontAwesome3To4` to use this library in your projects.
